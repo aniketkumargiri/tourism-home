@@ -11,8 +11,6 @@ header {
   background-image: url("new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
-  /* background-attachment: fixed; */
 }
 
 nav {
@@ -29,12 +27,10 @@ nav {
 nav .logo {
   width: 25%;
   text-align: center;
-  /* background: red; */
 }
 
 nav .menu {
   width: 40%;
-  /* background: yellow; */
   display: flex;
   justify-content: space-around;
 }
@@ -52,7 +48,6 @@ nav .menu a:first-child {
 main {
   width: 100%;
   height: 85vh;
-  /* background: green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,9 +91,7 @@ section a {
 }
 
 section .button-one {
-  /* background: #00b894; */
   font-size: 15px;
-  /* background: #00b894; */
   background: transparent;
   color: rgba(204, 207, 11, 0.952);
 }
@@ -109,9 +102,7 @@ section .button-one {
 }
 
 section .button-two {
-  /* background: #00b894; */
   font-size: 15px;
-  /* background: #00b894; */
   background: transparent;
   color: rgba(36, 187, 16, 0.952);
 }
