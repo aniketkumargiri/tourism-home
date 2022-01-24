@@ -9,7 +9,7 @@ header {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url("/images/pexels-julius-silver-753626.jpg");
+    url("new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
@@ -60,9 +60,6 @@ main {
   align-items: center;
   text-align: center;
   color: aliceblue;
-}
-
-section {
 }
 
 section h3 {
