@@ -8,8 +8,7 @@
 header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url("new.jpg");
+  background-image: url("new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
@@ -46,9 +45,8 @@ nav .menu a {
   font-weight: bold;
 }
 
-nav .menu a:first-child{
+nav .menu a:first-child {
   color: #00b894;
-
 }
 
 main {
@@ -105,7 +103,7 @@ section .button-one {
   color: rgba(204, 207, 11, 0.952);
 }
 
-.button-one:hover{
+.button-one:hover {
   background: #00b893a9;
   color: aliceblue;
 }
@@ -118,22 +116,34 @@ section .button-two {
   color: rgba(36, 187, 16, 0.952);
 }
 
-.button-two:hover{
+.button-two:hover {
   background: rgba(255, 255, 255, 0.507);
   color: #000;
 }
 
-.change_content::after{
-  content: '';
+.change_content::after {
+  content: "";
   animation: changetext 10s infinite linear;
   color: #00b894;
 }
 
-@keyframes changetext{
-  0%{content:"Switzerland";}
-  20%{content: "Singapore";}
-  40%{content: "France";}
-  60%{content: "Silicon Valley";}
-  80%{content: "Sydney";}
-  100%{content: "Los Angeles";}
+@keyframes changetext {
+  0% {
+    content: "Switzerland";
+  }
+  20% {
+    content: "Singapore";
+  }
+  40% {
+    content: "France";
+  }
+  60% {
+    content: "Silicon Valley";
+  }
+  80% {
+    content: "Sydney";
+  }
+  100% {
+    content: "Los Angeles";
+  }
 }
