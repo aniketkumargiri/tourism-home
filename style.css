@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("/images/pexels-julius-silver-753626.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+  /* background: red; */
+}
+
+nav .menu {
+  width: 40%;
+  /* background: yellow; */
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .menu a:first-child{
+  color: #00b894;
+
+}
+
+main {
+  width: 100%;
+  height: 85vh;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+section {
+}
+
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+
+section p {
+  font-size: 25px;
+  color: #eee;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+section .button-one {
+  /* background: #00b894; */
+  font-size: 15px;
+  /* background: #00b894; */
+  background: transparent;
+  color: rgba(204, 207, 11, 0.952);
+}
+
+.button-one:hover{
+  background: #00b893a9;
+  color: aliceblue;
+}
+
+section .button-two {
+  /* background: #00b894; */
+  font-size: 15px;
+  /* background: #00b894; */
+  background: transparent;
+  color: rgba(36, 187, 16, 0.952);
+}
+
+.button-two:hover{
+  background: rgba(255, 255, 255, 0.507);
+  color: #000;
+}
+
+.change_content::after{
+  content: '';
+  animation: changetext 10s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changetext{
+  0%{content:"Switzerland";}
+  20%{content: "Singapore";}
+  40%{content: "France";}
+  60%{content: "Silicon Valley";}
+  80%{content: "Sydney";}
+  100%{content: "Los Angeles";}
+}
